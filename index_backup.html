@@ -16,23 +16,8 @@
 	<body>
 	  <div class="reveal">
 	    <div class="slides">
-	      <section data-markdown>
-
-		<textarea data-template>
-		  # Hello, World!
-		  TESTING TESTING
-		  
-	      <section data-markdown>
-		<textarea data-template>
-		  # Hello, World!
-		  ```js [1-2|3|4]
-		  let a = 1;
-		  let b = 2;
-		  let c = x => 1 + 2 + x;
-		  c(3);
-		  ```
-		</textarea>
-	      </section>
+	      <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+              <section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 	    </div>
 	  </div>
 	  
